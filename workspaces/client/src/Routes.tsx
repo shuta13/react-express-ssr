@@ -7,8 +7,8 @@ import { Home } from './components/Home';
 const Routes: React.FC = () => {
   return (
     <Switch>
-      <Route exact path={'/'} component={Home} />
-      <Route exact path={'/contact'} component={Contact} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/contact" component={Contact} />
     </Switch>
   );
 };
