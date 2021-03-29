@@ -1,5 +1,5 @@
 const path = require('path');
-const webpackConfigBase = require('../webpack.config.base');
+const webpackConfigBase = require('../../webpack.config.base');
 
 module.exports = {
   ...webpackConfigBase,
@@ -9,7 +9,7 @@ module.exports = {
     __filename: false,
   },
   output: {
-    filename: 'index.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: 'server.js',
+    path: path.resolve(__dirname, '../../dist'),
   },
 };
